@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DA494F1F30125000D236DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DA494E1F30125000D236DA /* AppDelegate.swift */; };
+		06DA49511F30125000D236DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DA49501F30125000D236DA /* ViewController.swift */; };
+		06DA49541F30125000D236DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DA49521F30125000D236DA /* Main.storyboard */; };
+		06DA49571F30125000D236DA /* LoginApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06DA49551F30125000D236DA /* LoginApp.xcdatamodeld */; };
+		06DA49591F30125000D236DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DA49581F30125000D236DA /* Assets.xcassets */; };
+		06DA495C1F30125000D236DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DA495A1F30125000D236DA /* LaunchScreen.storyboard */; };
+		06DA49641F3014D300D236DA /* Android-Lollipop-wallpapers-a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06DA49631F3014D300D236DA /* Android-Lollipop-wallpapers-a.jpg */; };
+		06DA49661F30165E00D236DA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 06DA49651F30165E00D236DA /* logo.png */; };
+		06DA49681F30170400D236DA /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DA49671F30170400D236DA /* Registration.swift */; };
+		06DA496A1F30171600D236DA /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DA49691F30171600D236DA /* HomePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06DA494B1F30124F00D236DA /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DA494E1F30125000D236DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06DA49501F30125000D236DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06DA49531F30125000D236DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06DA49561F30125000D236DA /* LoginApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginApp.xcdatamodel; sourceTree = "<group>"; };
+		06DA49581F30125000D236DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06DA495B1F30125000D236DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06DA495D1F30125000D236DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DA49631F3014D300D236DA /* Android-Lollipop-wallpapers-a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Android-Lollipop-wallpapers-a.jpg"; sourceTree = "<group>"; };
+		06DA49651F30165E00D236DA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		06DA49671F30170400D236DA /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		06DA49691F30171600D236DA /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DA49481F30124F00D236DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DA49421F30124F00D236DA = {
+			isa = PBXGroup;
+			children = (
+				06DA494D1F30124F00D236DA /* LoginApp */,
+				06DA494C1F30124F00D236DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06DA494C1F30124F00D236DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DA494B1F30124F00D236DA /* LoginApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06DA494D1F30124F00D236DA /* LoginApp */ = {
+			isa = PBXGroup;
+			children = (
+				06DA494E1F30125000D236DA /* AppDelegate.swift */,
+				06DA49501F30125000D236DA /* ViewController.swift */,
+				06DA49631F3014D300D236DA /* Android-Lollipop-wallpapers-a.jpg */,
+				06DA49651F30165E00D236DA /* logo.png */,
+				06DA49521F30125000D236DA /* Main.storyboard */,
+				06DA49671F30170400D236DA /* Registration.swift */,
+				06DA49691F30171600D236DA /* HomePage.swift */,
+				06DA49581F30125000D236DA /* Assets.xcassets */,
+				06DA495A1F30125000D236DA /* LaunchScreen.storyboard */,
+				06DA495D1F30125000D236DA /* Info.plist */,
+				06DA49551F30125000D236DA /* LoginApp.xcdatamodeld */,
+			);
+			path = LoginApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06DA494A1F30124F00D236DA /* LoginApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DA49601F30125000D236DA /* Build configuration list for PBXNativeTarget "LoginApp" */;
+			buildPhases = (
+				06DA49471F30124F00D236DA /* Sources */,
+				06DA49481F30124F00D236DA /* Frameworks */,
+				06DA49491F30124F00D236DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginApp;
+			productName = LoginApp;
+			productReference = 06DA494B1F30124F00D236DA /* LoginApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06DA49431F30124F00D236DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TIPQC;
+				TargetAttributes = {
+					06DA494A1F30124F00D236DA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06DA49461F30124F00D236DA /* Build configuration list for PBXProject "LoginApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06DA49421F30124F00D236DA;
+			productRefGroup = 06DA494C1F30124F00D236DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DA494A1F30124F00D236DA /* LoginApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06DA49491F30124F00D236DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DA495C1F30125000D236DA /* LaunchScreen.storyboard in Resources */,
+				06DA49661F30165E00D236DA /* logo.png in Resources */,
+				06DA49641F3014D300D236DA /* Android-Lollipop-wallpapers-a.jpg in Resources */,
+				06DA49591F30125000D236DA /* Assets.xcassets in Resources */,
+				06DA49541F30125000D236DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DA49471F30124F00D236DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DA496A1F30171600D236DA /* HomePage.swift in Sources */,
+				06DA49681F30170400D236DA /* Registration.swift in Sources */,
+				06DA49571F30125000D236DA /* LoginApp.xcdatamodeld in Sources */,
+				06DA49511F30125000D236DA /* ViewController.swift in Sources */,
+				06DA494F1F30125000D236DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06DA49521F30125000D236DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DA49531F30125000D236DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06DA495A1F30125000D236DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DA495B1F30125000D236DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06DA495E1F30125000D236DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06DA495F1F30125000D236DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DA49611F30125000D236DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquez.LoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		06DA49621F30125000D236DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquez.LoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DA49461F30124F00D236DA /* Build configuration list for PBXProject "LoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DA495E1F30125000D236DA /* Debug */,
+				06DA495F1F30125000D236DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DA49601F30125000D236DA /* Build configuration list for PBXNativeTarget "LoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DA49611F30125000D236DA /* Debug */,
+				06DA49621F30125000D236DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06DA49551F30125000D236DA /* LoginApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06DA49561F30125000D236DA /* LoginApp.xcdatamodel */,
+			);
+			currentVersion = 06DA49561F30125000D236DA /* LoginApp.xcdatamodel */;
+			path = LoginApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06DA49431F30124F00D236DA /* Project object */;
+}
